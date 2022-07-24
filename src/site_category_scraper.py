@@ -12,7 +12,7 @@ options.add_argument("--ignore-ssl-errors")
 
 PATH = "./chromedriver.exe"
 try:
-    driver = webdriver.Chrome(PATH,chrome_options=options)
+    driver = webdriver.Chrome(PATH)
 
     time.sleep(4)
 
